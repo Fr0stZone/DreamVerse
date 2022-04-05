@@ -1,0 +1,51 @@
+@media (min-width: 600px){
+    body {
+        background-color: darkcyan;
+    }
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+#container > div {
+    background-color: white;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 28vw;
+    height: 11vh;
+    
+}
+#Fondo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+
+}
+#title {
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7vw;
+    z-index: 1;
+    border: 3px solid black;
+}
+.mario {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: auto;
+    max-width: 100px;
+}
+#table {
+    background-color: white;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
