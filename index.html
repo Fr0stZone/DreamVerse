@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DreamVerse</title>
+    <script src="main.js" type=""></script>
+    <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="variables.scss">
+	<style>
+		
+		td, th {
+			border: 3px solid black;
+			width: auto;
+            height: auto;
+			
+		}
+		tr > td {
+			background-color: darkcyan;
+		}
+		tr {
+			background-color: darkslateblue;
+			color: white;
+		}
+		button {
+			background-color: darkslateblue;
+		}
+		button:hover {
+			background-color: aquamarine;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 id="title">
+		DreamVerse
+	</h1>
+	</header>
+
+	
+
+
+    <main id="container">
+		<!-- number list -->
+		<ol>
+			<li>
+				First item
+			</li>
+			<li>
+				Second item
+			</li>
+			<li>
+				third item
+			</li>
+		</ol>
+		<!-- item list -->
+		<ul>
+			<li>
+				one item
+			</li>
+			<li>
+				two item
+			</li>
+			<li>
+				three item
+			</li>
+		</ul>
+
+		<!-- Table  -->
+		<div id="table">
+			<table>
+			<thead>
+				<th> Cube</th>
+				<th> cube cube</th>
+				<th> cube cube cube</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td> cubes ocean</td>
+					<td> average depth</td>
+					<td>10,0000 m</td>
+				</tr>
+				<tr>
+					<td> player 2 </td>
+					<td> name </td>
+					<td> score </td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		
+		<form>
+			<div>
+				<input type="text" placeholder="Full Name" name="name">
+			<input type="Submit">
+			</div>
+			<div>
+				<input name="World" list="Worlds" placeholder="Nationality">
+				<datalist id="Worlds">
+					<option value="Marte"></option>
+					<option value="Tierra"></option>
+					<option value="Anime"></option>
+					<option value="Comics"></option>
+				</datalist>
+			</div>
+			<div>
+				<input type="text" list="Country" placeholder="Country">
+				<datalist id="Country">
+					<option value="US"></option>
+					<option value="Costa Rica"></option>
+				</datalist>
+			</div>
+			
+		</form>
+		<button>
+			More Information
+		</button>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- imagenes de decoracion -->
+    <img class="mario" src="image/m.png" alt="mario">
+	<img id="Fondo" src="image/a.jpg" alt="background">
+</body>
+</html>
